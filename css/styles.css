@@ -1,0 +1,48 @@
+/*FONTS mobile first */
+@font-face {
+    font-family: SegoeWpLight;
+    src: url(../fonts/SegoeWpLight.ttf);
+}
+body{
+    font-family:'SegoeWpLight';
+    font-size:1rem;
+}
+.my-6{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.my-7{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.navbar-brand{
+    padding-left:6%;
+}
+
+.navbar-brand p{
+    font-size:2.6rem;
+    color:#000;
+}
+.lh-2{
+    line-height: 2;
+}
+/**css grooter dan mobiel**/
+
+}
+/*sm*/
+
+
+
+
+@media (min-width: 576px) {  }
+
+/*md*/
+@media (min-width: 768px) {  }
+/*lg*/
+
+@media (min-width: 992px) { .my-7{
+    margin-top: 75px;
+    margin-bottom: 75px; }
+
+
+@media (min-width: 1200px) {  }
